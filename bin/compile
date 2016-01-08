@@ -213,6 +213,9 @@ source $BIN_DIR/steps/cryptography
 # GDAL support.
 source $BIN_DIR/steps/gdal
 
+#Install HDF5
+source $BIN_DIR/steps/hdf5
+
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
