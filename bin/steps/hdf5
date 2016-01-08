@@ -4,4 +4,4 @@ mkdir -p .heroku/vendor
 tar xzf $ROOT_DIR/vendor/hdf5.tar.gz -C .heroku/vendor/
 
 echo "Checking what vendor directory look like"
-ls -l $BUILD_DIR/vendor/
+ls -l .heroku/vendor/
