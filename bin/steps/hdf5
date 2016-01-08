@@ -2,6 +2,3 @@
 echo "Adding HDF5 library support"
 mkdir -p .heroku/vendor
 tar xzf $ROOT_DIR/vendor/hdf5.tar.gz -C .heroku/vendor/
-
-echo "Checking what vendor directory look like"
-ls -l .heroku/vendor/
