@@ -2,3 +2,5 @@
 echo "Adding HDF5 library support"
 mkdir -p .heroku/vendor
 tar xzf $ROOT_DIR/vendor/hdf5.tar.gz -C .heroku/vendor/
+
+export HDF5_DIR=$(pwd)/vendor/lib
