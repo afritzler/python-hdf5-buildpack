@@ -1,0 +1,6 @@
+# Add HDF5 libraries to path
+status "Adding HDF5 library support"
+tar xzf $BIN_DIR/vendor/hdf5.tar.gz -C $BUILD_DIR/vendor/
+
+status "Checking what vendor directory look like"
+ls -l $BUILD_DIR/vendor/
